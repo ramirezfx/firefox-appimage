@@ -18,4 +18,12 @@ Navigate to the script-directory:
 
 Make the script executable:
 
-`chmod +x `
+`chmod +x build-firefox.sh`
+
+Run the script:
+
+`./build-firefox.sh`
+
+The latest version of firefox will be downloaded and the AppImage will be created.
+
+The file will be created in the same directory and the name will be XXX
