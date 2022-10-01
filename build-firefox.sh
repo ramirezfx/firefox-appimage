@@ -1,6 +1,6 @@
 LANG=de
 VERSION=$(wget --spider -S --max-redirect 0 "https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=$LANG" 2>&1 | sed -n '/Location: /{s|.*/firefox-\(.*\)\.tar.*|\1|p;q;}')
-DLLINK=https://download-installer.cdn.mozilla.net/pub/firefox/releases/$VERSION/linux-x86_64/de/firefox-$VERSION.tar.bz2
+DLLINK=https://download-installer.cdn.mozilla.net/pub/firefox/releases/$VERSION/linux-x86_64/$LANG/firefox-$VERSION.tar.bz2
 wget -O firefox-latest.tar.bz2 $DLLINK
 tar xf firefox-latest.tar.bz2
 rm firefox-latest.tar.bz2
