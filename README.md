@@ -10,4 +10,12 @@ Install GIT:
 
 Clone this repo:
 
-`git clone `
+`git clone https://github.com/ramirezfx/firefox-appimage.git`
+
+Navigate to the script-directory:
+
+`cd firefox-appimage`
+
+Make the script executable:
+
+`chmod +x `
