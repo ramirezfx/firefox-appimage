@@ -26,4 +26,4 @@ Run the script:
 
 The latest version of firefox will be downloaded and the AppImage will be created.
 
-The file will be created in the same directory and the name will be Firefox_Web_Browser-x86_64.AppImage
+The file will be created in the same directory and the name will be **Firefox_Web_Browser-x86_64.AppImage**
