@@ -1,6 +1,6 @@
 # firefox-appimage
 
-This script will download the latest version of firefox and create an AppImage
+This script will download the latest AppImage-version of firefox
 
 ## INSTALLATION:
 
@@ -18,12 +18,12 @@ Navigate to the script-directory:
 
 Make the script executable:
 
-`chmod +x build-firefox.sh`
+`chmod +x getlatestfirefox.sh`
 
 Run the script:
 
-`./build-firefox.sh`
+`./getlatestfirefox.sh`
 
-The latest version of firefox will be downloaded and the AppImage will be created.
+The latest AppImage-version of firefox will be downloaded.
 
 The file will be created in the same directory and the name will be **Firefox_Web_Browser-x86_64.AppImage**
