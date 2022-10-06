@@ -14,5 +14,3 @@ cp firefox.desktop $APPDIR
 cp firefox.png $APPDIR/
 ./appimagetool-x86_64.AppImage $APPDIR
 rm -Rf firefox appimagetool-x86_64.AppImage
-# cleanup
-rm AppRun
